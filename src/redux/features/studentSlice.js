@@ -35,11 +35,6 @@ export const studentSlice = createSlice({
     ],
   },
   reducers: {
-    // editStudent: (state, action) => {
-    //   state.Students = state.Students.find(
-    //     (student) => student.id === action.payload
-    //   );
-    // },
     addStudent: (state, action) => {
       state.Students = [...state.Students, action.payload];
     },
